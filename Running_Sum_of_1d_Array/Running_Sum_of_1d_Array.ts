@@ -18,6 +18,7 @@ function getRunningSum(nums: number[]): number[] {
   const rSum = new Array(nums.length);
 
   rSum[0] = nums[0];
+
   for (let i = 1; i < rSum.length; i++) {
     rSum[i] = rSum[i - 1] + nums[i];
   }

@@ -4,3 +4,7 @@ js
 dist
 example_solution
 tsconfig.json
+.eslintrc.json
+node_modules
+package-lock.json
+package.json
